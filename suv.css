@@ -1,0 +1,596 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:   0px;
+}
+
+
+.thetop-part{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 13vh;
+    position: relative;
+    z-index: 9999;
+    background-color: #fff;
+}
+
+.thelogo-part{
+    margin-left: 83px;
+    margin-top: 17px;
+}
+
+.option-section{
+    margin-top: -45px;
+    margin-left: 570px;
+}
+
+.option-button{
+    padding: 14px 24px;
+    border-radius: 200px;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.secondoption-button{
+    padding: 14px 24px;
+    border-radius: 200px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.template-section{
+    margin-top: -50px;
+    margin-left: 1053px;
+}
+
+.template-button{
+    width: 72%;
+    height: 8vh;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+}
+
+.thehead-section{
+    /* border: 2px solid brown; */
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+    
+}
+
+
+.thenavbar-part{
+    width: 100%;
+    height: 10vh;
+    background: transparent;
+    z-index: 2;
+    position: absolute;
+    margin-top: -30px;
+}
+
+.auto-logo{
+    width: 16%;
+    margin-left: 47px;
+    margin-top: 9px;
+    
+}
+
+.navbar-part{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 544px;
+    color: white;
+    margin-top: -38px;
+   
+}
+
+li{
+    padding-left: 41px;
+}
+
+.fa-user{
+    margin-left: 1234px;
+    color: white;
+}
+
+.user-icon{
+    margin-top: -23px;
+    font-size: 20px;
+}
+
+.fa-shopping-bag{
+    margin-left: 1273px;
+    color: white;
+}
+.navbar-part{
+    color: black;
+}
+
+.fa-user{
+    color: black;
+}
+
+.fa-shopping-bag{
+    color: black;
+}
+
+.thesavings-part{
+    border:2px solid #2e2e2e;
+    width: 100%;
+    height: 8vh;
+    margin-top: -555px;
+    background-color: #333333;;
+}
+
+.theexplore-footer{
+    /* border: 2px solid blue; */
+    width: 13%;
+    height: 30vh;
+    margin-left: 30px;
+    margin-top: 160px;
+    margin-bottom: 25px;
+}
+
+.explore-heading{
+    font-size: 25px;
+   
+}
+
+.certified-part{
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #444444;
+}
+
+.family-part{
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #444444;
+}
+
+.Car-part{
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #444444;
+}
+
+.shop-footer{
+    /* border: 2px solid blue; */
+    width: 13%;
+    height: 30vh;
+    margin-left: 220px;
+    margin-top: -203px;
+}
+
+.theshop-heading{
+    font-size: 25px;
+}
+
+.trucks-part{
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #444444;
+}
+
+.suv-part{
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #444444;
+}
+
+.discover-footer{
+    /* border: 2px solid blue; */
+    width: 13%;
+    height: 30vh;
+    margin-left: 410px;
+    margin-top: -181px;
+}
+
+.thecover-heading{
+    font-size: 25px;
+}
+
+.cover-part{
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #444444;
+}
+
+.unpdated-footer{
+    /* border: 2px solid blue; */
+    width: 28%;
+    height: 22vh;
+    margin-left: 920px;
+    margin-top: -195px;
+}
+
+.subscribe-part{
+    font-size: 15px;
+    color: #444444;
+    margin-top: 5px;
+}
+
+.theemail-section{
+    margin-top: 25px;
+    height: 8vh;
+    width: 62%;
+    padding-left: 10px;
+    font-size: 15px;
+    box-shadow: 1px 1px 1px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.subscribe-button{
+    height: 8vh;
+    width: 35%;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-left: 240px;
+}
+
+.subsrcibe-section{
+    margin-top: -47px;
+}
+
+.subsrcibe-section :hover{
+    background-color: #444444;
+    border: 2px solid #444444; ;
+}
+
+.savings-paragraph{
+    padding-left: 433px;
+    padding-top: 13px;
+    font-size: 15px;
+    color: #dbdbdb;
+}
+
+.theside-navbar{
+    /* border: 2px solid grey; */
+    width: 22%;
+    height: 100vh;
+}
+
+.shopcars-part{
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 50px;
+    padding-top: 50px;
+    color: #444444;
+}
+
+.cars-heading{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.collapse-part{
+    padding-left: 50px;
+    padding-top: 57px;
+}
+
+.fa-minus{
+    padding-left: 150px;
+}
+
+.theminus-part{
+    margin-top: -19px;
+}
+
+.cars-part{
+    padding-left: 55px;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.fa-times{
+    padding-left: 99px;
+}
+
+.times-part{
+    margin-top: -16px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.therest-part{
+    padding-left: 123px;
+}
+
+.reset-section{
+    margin-top: -17px;
+}
+
+.fa-repeat{
+    padding-left: 200px;
+}
+
+.repeat-part{
+    margin-top: -16px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.price-part{
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+.fa-angle-down{
+    padding-left: 245px;
+}
+
+.dropdown-part{
+    margin-top: -16px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.stock-part{
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+.collection-part{
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+.fa-angle-up{
+    padding-left: 245px;
+}
+
+.theform-part{
+    padding-left: 54px;
+    padding-top: 30px;
+    color: #444444;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+
+.sedan-z{
+    width: 100%;
+}
+
+.modal-y{
+    width: 100%;
+}
+
+.modal-x{
+    width: 100%;
+}
+
+.threecar-section{
+    border: 1px solid rgb(255, 253, 253);
+    width: 24%;
+    height: 74vh;
+    margin-left: 310px;
+    margin-top: -445px;
+}
+
+.sales-part{
+    margin-top: -75px;
+}
+
+.thesec-section{
+    border: 1px solid rgb(255, 255, 255);
+    width: 24%;
+    height: 74vh;
+    margin-top: -445px;
+    margin-left: 650px;
+}
+
+.money-text{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 100;
+    color: #444444;
+}
+
+.addcart-text{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 100;
+    color: #444444;
+    text-decoration: underline;
+}
+
+.luxury-text{
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.money-text{
+    text-decoration: line-through;
+}
+
+.second-text{
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 110px;
+    font-weight: 100;
+    color: #444444;
+}
+
+.addseccart-text{
+    font-size: 15px;
+    margin-top: 16px;
+    margin-left: 20px;
+    font-weight: 100;
+    color: #444444;
+    text-decoration: underline;
+}
+
+.thirdmoney-text{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 100;
+    color: #444444;
+}
+
+.firstmoney-text{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 100;
+    color: #444444;
+}
+
+.thesale-section{
+    margin-top: -482px;
+    margin-left: 11px;
+}
+
+.thesale-part{
+    width: 17%;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+.thethird-section{
+    border: 1px solid rgb(255, 255, 255);
+    width: 24%;
+    height: 74vh;
+    margin-top: -445px;
+    margin-left: 990px;
+}
+
+.thesale-section{
+    margin-top: -420px;
+}
+
+.footer-secrtion{
+    margin-left: -970px;
+}
+
+.shop-footers{
+    margin-left: -750px;
+    margin-top: -207px;
+}
+
+.discover-footers{
+    margin-top: -110px;
+    margin-left: -530px;
+}
+
+.unpdated-footers{
+     margin-top: -70px;
+     margin-left: -50px;
+}
+
+.thelong-line{
+    width: 395%;
+    margin-top: 90px;
+    margin-left: -950px;
+    background-color: black;
+}
+
+.reserved-section{
+    margin-left: -950px;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #444444;
+}
+
+.middle-part{
+    /* border: 2px solid blue; */
+    margin-left: -500px;
+    width: 30%;
+    height: 14vh;
+    margin-top: -14px;
+}
+
+.shopall-part{
+    font-size: 14px;
+    color: #444444;
+}
+
+.term-part{
+    font-size: 13px;
+    color: #444444;
+    margin-left: 120px;
+    margin-top: -15px;
+    
+}
+
+
+.privacy-part{
+    font-size: 13px;
+    color: #444444;
+    margin-left: 295px;
+    margin-top: -47px;
+}
+
+.refund-part{
+    font-size: 13px;
+    color: #444444;
+    margin-top: 5px;
+}
+
+.facebook-icon{
+    margin-left: 229px;
+    margin-top: -90px;
+    
+}
+
+.instagram-icon{
+    margin-left: 260px;
+    margin-top: -18px;
+}
+
+.twitter-icon{
+    margin-left: 293px;
+    margin-top: -18px;
+}
+
+.facebook-icon :hover{
+    color: rgb(14, 216, 216);
+}
+
+.instagram-icon :hover{
+    color: rgb(14, 216, 216);
+}
+
+.twitter-icon :hover{
+    color: rgb(14, 216, 216);
+}
+
+.middle-part :hover{
+    color: rgb(14, 216, 216);
+}
+
+

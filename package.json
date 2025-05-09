@@ -1,0 +1,11 @@
+{
+    "name": "my-static-site",
+    "version": "1.0.0",
+    "description": "A simple static HTML/CSS/JS website",
+    "scripts": {
+      "start": "echo 'No server needed. This is a static site.'"
+    },
+    "author": "",
+    "license": "MIT"
+  }
+  

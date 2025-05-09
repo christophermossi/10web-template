@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" id="font-open-sans.css_css-css" href="https://10web.io/wp-content/themes/10web-theme/css/font-open-sans.css?ver=24.01.578" type="text/css" media="all">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="thetop-part">
+        <div class="logo-section"> 
+            <img class="thelogo-part" src="image part/image.png">
+        </div>
+
+
+       <div class="option-section"> 
+        <button class="option-button">
+        Desktop
+    </button>
+
+    <button class="secondoption-button">
+        Mobile
+    </button>
+        </div>
+
+
+    <div class="template-section">
+        <button class="template-button">
+            Use Template
+       </button>
+    </div>
+      
+    </div>
+
+    <div class="thehead-section">
+        <div class="thenavbar-part">
+            <img class="auto-logo" src="image part/image copy 6.png">
+        
+
+            <div class="nav-part">
+                <ul class="navbar-part">
+                    <li><a class="cars-link" href="cars.html">Cars</a></li>
+                    <li><a  class="trucks-link" href="trucks.html">Trucks</a></li>
+                    <li><a class="suv-link" href="suv.html">SUVs</a></li>
+                    <li>New Arrivals</li>
+                </ul>
+            </div>
+           
+
+
+            <div class="user-icon">
+                <i class="fa fa-user" aria-hidden="true">
+                </i>
+            </div>
+            <div class="shopping-icon">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            </div>
+        
+
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">1 / 3</div> -->
+          <img src="image part/tenweb_media_iWhzsnTe.webp" class="first-img">  
+
+          <!-- <div class="text">Caption Text</div> -->
+        </div>
+        
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">2 / 3</div> -->
+          <img src="image part/tenweb_media_0oksvY43.webp" class="first-img">
+          <!-- <div class="text">Caption Two</div> -->
+        </div>
+        
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">3 / 3</div> -->
+          <img src="image part/tenweb_media_duBoi4m5.webp" class="first-img">
+          <!-- <div class="text">Caption Three</div> -->
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <!-- <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span>  -->
+        </div>
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+    <div class="Firstheading-section">
+        <h1 class="firstheading-part">Discover Your Perfect</h1>
+        <h1 class="theride-part">Ride</h1>
+    </div>
+
+    <div class="first-paragraph">
+        <p class="theparagraph-part">
+            At AutoVibe, we offer a diverse range of quality vehicles<br>including cars, trucks, and SUVs. Our dedicated team is here to<br> help you find the right fit with flexible financing options and<br>trusted service.	
+        </p>
+    </div>
+
+    <div class="thebutton-part">
+        <li class="cars-link"><a href="cars.html">
+            <button class="thebuutton">Shop Now</button></li></a>
+          
+        
+        
+    </div>
+    
+    </div>
+
+    <div class="second-section">
+        <div class="thebrosde-section"> 
+            <h4 class="thebrowse-part">Browse Our Vehicles</h4>
+        </div>
+        
+
+        <div class="thebrowseimg-section">
+            <img class="carimg-part" src="image part/tenweb_media_fLmReyiq.webp">
+            <div class="thefirstimg-part">
+                <h4 class="thecars-part">Cars</h4>
+                <li class="cars-link"><a href="cars.html">
+                    <button class="thecar-button">Shop Now</button>
+                </a>
+               
+                
+        
+            </div>
+
+        </div>
+
+        <div class="thesecbrowseimg-section">
+            <img class="suvimg-part" src="image part/tenweb_media_GB5VeNJF.webp">
+            <div class="thesecondimg-part">
+                <h4 class="thesuv-part">SUVs</h4>
+                <li class="cars-link"><a href="cars.html">
+                <button class="thesuv-button">Shop Now</button></a>
+            </li>
+            </div>
+        </div>
+
+        <div class="thethrbrowseimg-section">
+            <img class="truckimg-part" src="image part/tenweb_media_G83FBlWl.webp">
+            <div class="thethirdimg-part">
+                <h4 class="thetruck-part">Trucks</h4>
+                <button class="thetruck-button">Shop Now</button>
+            </div>
+        </div>
+      
+        
+       
+    </div>
+
+    <div class="Thethird-heading">
+        <div class="theexplore-section">
+            <h1 class="theexplore-part">Explore Our Collections</h1>
+
+        </div>
+    </div>
+        
+        <p class="dicover-part">Discover our top vehicle collections tailored for you.								
+            </p>
+            <div class="explorebutton-part">
+                <button class="thediscover-button">Shop Now</button>
+            </div>
+
+        <div class="threecar-section">
+            <div class="suvimg-section">
+                <img class="suvf" src="image part/image copy.png">
+            </div>
+
+            <h5 class="luxury-text">2023 Luxury SUV F</h5>
+            <h1 class="firstmoney-text">$59,999.00</h1>
+            <h1 class="addcart-text">Add to cart</h1>
+            
+            </div>
+        </div>
+
+    
+        <div class="thesec-section">
+            <div class="secsuvimg-section">
+                <img class="suvd" src="image part/image copy 2.png">
+            </div>
+
+            <h5 class="luxury-text">2023 Family SUV D</h5>
+            <h1 class="money-text">$34,999,00</h1> <h1 class="second-text">$26,249,00</h1>
+            <h1 class="addseccart-text">Add to cart</h1>
+            <div class="thesale-section">
+                <button class="thesale-part">Sale!</button>
+            </div>
+           
+
+        </div>
+
+        <div class="thethird-section">
+            <div class="thirdimg-section">
+                <img class="suvc" src="image part/image copy 3.png">
+            </div>
+
+            <h5 class="luxury-text">2023 OFF-Road Truck C</h5>
+            <h1 class="thirdmoney-text">$40,000,00</h1> 
+            <h1 class="addseccart-text">Add to cart</h1>
+
+        </div>
+    
+        <div class="thestandout-section">
+            <div class="theheading-part">
+                <h1 class="thestandout-part">Why AutoVibe Stands Out</h1>
+            </div>
+
+            <div class="paragraph-section">
+                <p class="autovibe-paragraph">
+                    At AutoVibe, we understand that purchasing a vehicle is a significant decision. That’s why we offer trusted service that prioritizes your needs. Our knowledgeable team is here to guide you through every step of the process, ensuring you find the perfect vehicle. Additionally, we provide flexible financing options tailored to fit your budget, making it easier than ever to drive away in your dream car. With a commitment to customer satisfaction and a wide selection of quality vehicles, AutoVibe is your go-to dealership for a seamless car-buying experience.								
+                </p>
+            </div>
+
+            <div class="bigimage-section">
+                <div class="bigimg-part">
+                    <img class="big-image" src="image part/image copy 4.png">
+                </div>
+            </div>
+
+            <div class="thepromotion-section">
+                <div class="thepromotion-part">
+                    <h1 class="promotion-text">Current Promotions</h1>
+                </div>
+
+                <div class="advantage-part">
+                    <p class="advantage-paragraph">Take advantage of our exclusive offers on cars, trucks, and SUVs.<br> Save big while finding your perfect vehicle at AutoVibe!								</p>
+                </div>
+
+                <div class="theshopnow-button">
+                    <button class="shopnow-button">Shop Now</button>
+                </div>
+
+                <div class="thesseenew-button">
+                    <button class="seenew-button">See New</button>
+                </div>
+
+                <div class="autovibe-poster">
+                    <img class="autovibe-part" src="image part/image copy 5.png">
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="thefooter-secrtion">
+            <div class="theexplore-footer">
+                <h4 class="explore-heading">Explore</h4>
+                <h6 class="certified-part">Certified Pre-Owned</h6>
+                <h6 class="family-part">Family Friendly</h6>
+                <h6 class= "Car-part">Cars</h6>
+            </div>
+ 
+        </div>
+            <div class="shop-footer">
+                <h4 class="theshop-heading">Shop</h4>
+                <h6 class="trucks-part">Trucks</h6>
+                <h6 class="suv-part">SUVs</h6>
+            </div>
+
+            <div class="discover-footer">
+                <h4 class="thecover-heading">Discover</h4>
+                <h6 class="cover-part">New Arrivals</h6>
+            </div>
+
+            <div class="unpdated-footer">
+                <h4 class="theshop-heading">Stay Updated</h4>
+                <p class="subscribe-part">Subscribe to our newsletter for the latest updates on new arrivals and exclusive promotions.</p>
+                <input class="theemail-section" placeholder="Enter your email">
+                <div class="subsrcibe-section">
+                    <button class="subscribe-button">Subscribe</button>
+                </div>
+               
+            </div>
+        </div>
+
+        <hr class="thelong-line">
+
+        <div class="reserved-part">
+            <h6 class="reserved-section">© 2024 AutoVibe. All rights reserved.</h6>
+        </div>
+
+        <div class="themiddle-section">
+            <div class="middle-part">
+                <h6 class="shopall-part">Shop All</h6>
+                <h6 class="term-part">Terms and Conditions</h6>
+                <h6 class="privacy-part">Privacy Policy</h6>
+                <h6 class="refund-part">Refund and Return Policy</h6>
+            </div>
+        </div>
+
+        <div class="facebook-icon">
+            <i class="fab fa-facebook"></i>
+        </div>
+          
+        <div class="instagram-icon">
+            <i class="fab fa-instagram"></i>
+        </div>
+
+        <div class="twitter-icon">
+            <i class="fab fa-twitter"></i>
+        </div>
+    
+
+    
